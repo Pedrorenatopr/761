@@ -33,4 +33,15 @@ body {
 
 }
 
+.cartao {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.card {
+    padding: 1em;
+}
+
 
