@@ -1,23 +1,22 @@
 body {
     background-color: white;
-    color: black;
+    color: rgb(121, 117, 117);
     font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .section-principal {
-    
-}
-
-.section-imagem {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .menu-lista {
     display: flex;
     justify-content: end;
     list-style: none;
-    padding-right: 320px;
     font-weight: bold;
 }
 
@@ -29,17 +28,9 @@ body {
 }
 
 .logo {
-    position: absolute;
-    padding-left: 320px;
-    margin-top: -20px;
+    padding-top: 0;
+    margin-top: 0;
+
 }
 
-.card-dois {
-    display: flex;
-    justify-content: center;
-}
-
-.img-dois {
-    padding: 1em;
-}
 
