@@ -33,6 +33,37 @@ body {
 
 }
 
+.busca {
+    padding: 2em;
+}
+
+.input {
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.conta {
+    display: flex;
+    align-items: center;
+}
+
+.icone-perfil {
+    padding: 5px;
+}
+
+.entrar {
+    text-decoration: none;
+}
+
+.cart {
+    padding: 1em;
+}
+
+hr {
+    width: 60%;
+}
+
 .cartao {
     display: grid;
     grid-template-columns: 20% 20% 20%;
