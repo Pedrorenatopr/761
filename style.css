@@ -128,7 +128,7 @@ hr {
 
     
     .section-principal {
-        display: flex;
+        display: none;
     }
 
     .cartao {
@@ -160,13 +160,25 @@ hr {
         display: none;
     }
 
-
-
-    .botao {
-        display: none;
+    .menu-itens {
+        display: inline-block;
     }
 
 
+
+    .botao {
+        display: block;
+    }
+
+    .icones {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+    }
+
+    .logo-dois {
+        margin-top: 0;
+    }
 
 
 }
