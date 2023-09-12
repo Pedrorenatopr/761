@@ -72,7 +72,7 @@ hr {
 
 .cartao {
     display: grid;
-    grid-template-columns: 23% 23% 23%;
+    grid-template-columns: 20% 20% 20%;
     justify-content: center;
     padding-top: 100px;
     gap: 1em;
@@ -85,6 +85,7 @@ hr {
 .card-principal {
     border: 1px solid rgb(193, 193, 193);
     width: 295px;
+    height: 450px;
 }
 
 .texto-card {
@@ -115,7 +116,11 @@ hr {
     display: none;
 }
 
-@media screen and (max-device-width: 900px) {
+@media screen and (max-device-width: 700px) {
+
+    .menu-lista {
+        display: none;
+    }
 
     .icone-perfil {
         display: none;
@@ -125,38 +130,10 @@ hr {
         display: none;
     }
 
-
-    
-    .section-principal {
-        display: none;
-    }
-
-    .cartao {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-
-    .card-principal {
-        border: 1px solid rgb(193, 193, 193);
-        width: 140px;
-    }
-
-    .foto-card {
-        width: 120px;
-    }
-
-    .avaliacao {
-        display: none;
-    }
-
-
-
-
     hr {
-        display: none;
     }
-
-    .menu-lista {
+    
+    .botao {
         display: none;
     }
 
@@ -164,21 +141,26 @@ hr {
         display: inline-block;
     }
 
-
-
-    .botao {
-        display: block;
+    .cartao {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        padding-top: 100px;
     }
 
-    .icones {
-        display: flex;
-        justify-content: space-between;
-        height: 40px;
+    .foto-card {
+        width: 150px;
+        height: 140px;
     }
 
-    .logo-dois {
-        margin-top: 0;
+    .card-principal {
+        border: 1px solid rgb(193, 193, 193);
+        width: 150px;
+        height: 350px;
     }
 
+    .avaliacao {
+        display: none;
+    }
 
 }
